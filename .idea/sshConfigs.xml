@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig host="ec2-18-159-110-89.eu-central-1.compute.amazonaws.com" id="f01acb96-2ff2-4948-b52f-133d24c6e677" keyPath="$USER_HOME$/king_ssh.pem" port="22" customName="king" nameFormat="CUSTOM" username="admin">
+        <option name="customName" value="king" />
+      </sshConfig>
+    </configs>
+  </component>
+</project>

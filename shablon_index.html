@@ -1,0 +1,483 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+  <div class="main-cont">
+
+    <div class="container" id="head">
+      <div class="content">
+        <div class="navicon">
+          <img src="imagesA/navicon.png" alt="">
+        </div>
+        <div class="menu" id="header">
+          <div class="logo"><a href="#topID"><img src="images/logo.png" alt=""></a></div>
+          <div class="esc-nav">X</div>
+          <div class="menu-item" id="menu-itm1">
+            <div class="language-menu">
+              <div class="lang-menu">Рус /</div>
+              <div class="lang-menu"><a href="ua/index.html"> Укр</a></div>
+            </div>
+          </div>
+          <div class="menu-item"><a class="item" href="#news-cont">Новости</a></div>
+          <div class="menu-item"><a class="item" href="#testimonialsID">Отзывы</a></div>
+          <div class="menu-item"><a class="item" href="#features">Особенности</a></div>
+          <div class="menu-item"><a class="item" href="#galeryID">Галерея</a></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="content">
+        <div class="top-cont" id="topID">
+          <div class="slogan">
+            <div class="step">Step by step<br />with <span>King Size</span>.</div>
+            <p>Всё начинается, когда ты открываешь обувную коробку<br />Просто нажми и закажи.</p>
+          </div>
+          <div class="sneaker">
+            <div class="points"><img src="images/points.png" alt=""></div>
+            <div class="square-cont"></div>
+            <div class="square"><img src="images/nbV5.png" alt=""></div>
+          </div>
+        </div>
+        <div class="container" id="filter">
+          <div class="content">
+            <div class="filter-cont">
+              <div class="filter-itm">
+                <p>Бренд</p>
+                <select name="brand" required>
+                  <option value="Adidas">Adidas</option>
+                  <option value="Asics">Asics</option>
+                  <option value="Clarks">Clarks</option>
+                  <option selected value="NewBalance">New Balance</option>
+                  <option value="Nike">Nike</option>
+                  <option value="Puma">Puma</option>
+                  <option value="Reebok">Reebok</option>
+                  <option value="Saucony">Saucony</option>
+                  <option value="Diadora">Diadora</option>
+                </select>
+              </div>
+              <div class="filter-itm">
+                <p>Пол</p>
+                <select id="male" name="sex" required>
+                  <option selected value="man">Мужской</option>
+                  <option value="woman">Женский</option>
+                </select>
+              </div>
+              <div class="filter-itm">
+                <p>Размер</p>
+                <select name="size" required>
+                  <option value="36">36</option>
+                  <option value="37">37</option>
+                  <option value="38">38</option>
+                  <option value="39">39</option>
+                  <option value="40">40</option>
+                  <option value="41">41</option>
+                  <option value="42">42</option>
+                  <option selected value="43">43</option>
+                  <option value="44">44</option>
+                  <option value="45">45</option>
+                  <option value="46">46</option>
+                  <option value="47">47</option>
+                  <option value="48">48</option>
+                </select>
+              </div>
+              <div class="filter-itm" id="last-itm">
+                <p>Цена</p>
+                <select name="price" required>
+                  <option value="1199-1399">1199-1399 ₴</option>
+                  <option value="1399-1599">1399-1699 ₴</option>
+                  <option selected value="1699-1999">1699-1999 ₴</option>
+                  <option value="1999-2299">1999-2299 ₴</option>
+                  <option value="2299-2740">2299-2740 ₴</option>
+                </select>
+              </div>
+              <button class="filter-btn" type="submit" name="search_filter" value="Поиск">Поиск</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="container" id="features">
+          <div class="main-text1">Особенности</div>
+          <div class="main-text2">Мы предоставляем лучшее в King Size</div>
+          <div class="features-cont">
+            <div class="features-element">
+              <img src="images/features1.png" alt="">
+              <div class="txt1">Качество</div>
+              <div class="txt2">Весь ассортимент составляет исключительно оригинальная продукция</div>
+            </div>
+            <div class="features-element">
+              <img src="images/features2.png" alt="">
+              <div class="txt1">Гибкость</div>
+              <div class="txt2">Вы можете выбрать удобный для Вас способ оплаты</div>
+            </div>
+            <div class="features-element">
+              <img src="images/features3.png" alt="">
+              <div class="txt1">Быстрая доставка</div>
+              <div class="txt2">Отправим Ваш товар в течении часа после оформления заказа</div>
+            </div>
+          </div>
+          <div id="galeryID"></div>
+        </div>
+
+        <div id="galery">
+          <div class="container">
+            <div class="content">
+              <div class="main-text1">Галерея</div>
+              <div class="main-text2">На любой вкус и цвет</div>
+              <div class="categories">
+                <div class="categories-txt">Категории:</div>
+                <div class="categories-txt">Всё</div>
+                <div class="categories-txt">Мужское</div>
+                <div class="categories-txt">Женское</div>
+                <div class="categories-txt">Детское</div>
+              </div>
+
+              <div id="models">
+                <div class="galery-element">
+                  <img src="images/models/nb530.png" alt="">
+                  <div class="txt1">Puma RS-X Bold</div>
+                  <div class="txt2" id="galery-size">Размер:<span>40.5 41 42 43 44 45 46</span></div>
+                  <div class="txt2" id="galery-price">Цена:<span>2399 ₴</span></div>
+                  <div class="more-btn-cont">
+                    <a href="model/model.html"><button class="more-btn" type="submit" name="more_button" value="Больше">Больше</button></a>
+                  </div>
+                </div>
+                <div class="galery-element">
+                  <img src="images/models/nbXRCT.png" alt="">
+                  <div class="txt1">New Balance XRCT</div>
+                  <div class="txt2" id="galery-size">Размер:<span>40.5 41 42 43 43.5 44 44.5</span></div>
+                  <div class="txt2" id="galery-price">Цена:<span>2150 ₴</span></div>
+                  <div class="more-btn-cont">
+                    <a href="model/model.html"><button class="more-btn" type="submit" name="more_button" value="Больше">Больше</button></a>
+                  </div>
+                </div>
+                <div class="galery-element">
+                  <img src="images/models/adidas4D.png" alt="">
+                  <div class="txt1">Adidas Alphaedge 4D</div>
+                  <div class="txt2" id="galery-size">Размер:<span>36 37 38 41 41.5 42 45</span></div>
+                  <div class="txt2" id="galery-price">Цена:<span>2050 ₴</span></div>
+                  <div class="more-btn-cont">
+                    <a href="model/model.html"><button class="more-btn" type="submit" name="more_button" value="Больше">Больше</button></a>
+                  </div>
+                </div>
+                <div class="galery-element">
+                  <img src="images/models/adidasTemperRunGR.png" alt="">
+                  <div class="txt1">Adidas Temper Run</div>
+                  <div class="txt2" id="galery-size">Размер:<span>41 42 43 43 44 44.5 45 46</span></div>
+                  <div class="txt2" id="galery-price">Цена:<span>2050 ₴</span></div>
+                  <div class="more-btn-cont">
+                    <a href="model/model.html"><button class="more-btn" type="submit" name="more_button" value="Больше">Больше</button></a>
+                  </div>
+                </div>
+
+                <div class="galery-element">
+                  <img src="images/models/nb530.png" alt="">
+                  <div class="txt1">Puma RS-X Bold</div>
+                  <div class="txt2" id="galery-size">Размер:<span>40.5 41 42 43 44 45 46</span></div>
+                  <div class="txt2" id="galery-price">Цена:<span>2399 ₴</span></div>
+                  <div class="more-btn-cont">
+                    <a href="model/model.html"><button class="more-btn" type="submit" name="more_button" value="Больше">Больше</button></a>
+                  </div>
+                </div>
+                <div class="galery-element">
+                  <img src="images/models/nbXRCT.png" alt="">
+                  <div class="txt1">New Balance XRCT</div>
+                  <div class="txt2" id="galery-size">Размер:<span>40.5 41 42 43 43.5 44 44.5</span></div>
+                  <div class="txt2" id="galery-price">Цена:<span>2150 ₴</span></div>
+                  <div class="more-btn-cont">
+                    <a href="model/model.html"><button class="more-btn" type="submit" name="more_button" value="Больше">Больше</button></a>
+                  </div>
+                </div>
+                <div class="galery-element">
+                  <img src="images/models/adidas4D.png" alt="">
+                  <div class="txt1">Adidas Alphaedge 4D</div>
+                  <div class="txt2" id="galery-size">Размер:<span>36 37 38 41 41.5 42 45</span></div>
+                  <div class="txt2" id="galery-price">Цена:<span>2050 ₴</span></div>
+                  <div class="more-btn-cont">
+                    <a href="model/model.html"><button class="more-btn" type="submit" name="more_button" value="Больше">Больше</button></a>
+                  </div>
+                </div>
+                <div class="galery-element">
+                  <img src="images/models/adidasTemperRunGR.png" alt="">
+                  <div class="txt1">Adidas Temper Run</div>
+                  <div class="txt2" id="galery-size">Размер:<span>41 42 43 43 44 44.5 45 46</span></div>
+                  <div class="txt2" id="galery-price">Цена:<span>2050 ₴</span></div>
+                  <div class="more-btn-cont">
+                    <a href="model/model.html"><button class="more-btn" type="submit" name="more_button" value="Больше">Больше</button></a>
+                  </div>
+                </div>
+
+                <div class="galery-element">
+                  <img src="images/models/nb530.png" alt="">
+                  <div class="txt1">Puma RS-X Bold</div>
+                  <div class="txt2" id="galery-size">Размер:<span>40.5 41 42 43 44 45 46</span></div>
+                  <div class="txt2" id="galery-price">Цена:<span>2399 ₴</span></div>
+                  <div class="more-btn-cont">
+                    <a href="model/model.html"><button class="more-btn" type="submit" name="more_button" value="Больше">Больше</button></a>
+                  </div>
+                </div>
+                <div class="galery-element">
+                  <img src="images/models/nbXRCT.png" alt="">
+                  <div class="txt1">New Balance XRCT</div>
+                  <div class="txt2" id="galery-size">Размер:<span>40.5 41 42 43 43.5 44 44.5</span></div>
+                  <div class="txt2" id="galery-price">Цена:<span>2150 ₴</span></div>
+                  <div class="more-btn-cont">
+                    <a href="model/model.html"><button class="more-btn" type="submit" name="more_button" value="Больше">Больше</button></a>
+                  </div>
+                </div>
+                <div class="galery-element">
+                  <img src="images/models/adidas4D.png" alt="">
+                  <div class="txt1">Adidas Alphaedge 4D</div>
+                  <div class="txt2" id="galery-size">Размер:<span>36 37 38 41 41.5 42 45</span></div>
+                  <div class="txt2" id="galery-price">Цена:<span>2050 ₴</span></div>
+                  <div class="more-btn-cont">
+                    <a href="model/model.html"><button class="more-btn" type="submit" name="more_button" value="Больше">Больше</button></a>
+                  </div>
+                </div>
+                <div class="galery-element">
+                  <img src="images/models/adidasTemperRunGR.png" alt="">
+                  <div class="txt1">Adidas Temper Run</div>
+                  <div class="txt2" id="galery-size">Размер:<span>41 42 43 43 44 44.5 45 46</span></div>
+                  <div class="txt2" id="galery-price">Цена:<span>2050 ₴</span></div>
+                  <div class="more-btn-cont">
+                    <a href="model/model.html"><button class="more-btn" type="submit" name="more_button" value="Больше">Больше</button></a>
+                  </div>
+                </div>
+
+                <div class="galery-element">
+                  <img src="images/models/nb530.png" alt="">
+                  <div class="txt1">Puma RS-X Bold</div>
+                  <div class="txt2" id="galery-size">Размер:<span>40.5 41 42 43 44 45 46</span></div>
+                  <div class="txt2" id="galery-price">Цена:<span>2399 ₴</span></div>
+                  <div class="more-btn-cont">
+                    <a href="model/model.html"><button class="more-btn" type="submit" name="more_button" value="Больше">Больше</button></a>
+                  </div>
+                </div>
+                <div class="galery-element">
+                  <img src="images/models/nbXRCT.png" alt="">
+                  <div class="txt1">New Balance XRCT</div>
+                  <div class="txt2" id="galery-size">Размер:<span>40.5 41 42 43 43.5 44 44.5</span></div>
+                  <div class="txt2" id="galery-price">Цена:<span>2150 ₴</span></div>
+                  <div class="more-btn-cont">
+                    <a href="model/model.html"><button class="more-btn" type="submit" name="more_button" value="Больше">Больше</button></a>
+                  </div>
+                </div>
+                <div class="galery-element">
+                  <img src="images/models/adidas4D.png" alt="">
+                  <div class="txt1">Adidas Alphaedge 4D</div>
+                  <div class="txt2" id="galery-size">Размер:<span>36 37 38 41 41.5 42 45</span></div>
+                  <div class="txt2" id="galery-price">Цена:<span>2050 ₴</span></div>
+                  <div class="more-btn-cont">
+                    <a href="model/model.html"><button class="more-btn" type="submit" name="more_button" value="Больше">Больше</button></a>
+                  </div>
+                </div>
+                <div class="galery-element">
+                  <img src="images/models/adidasTemperRunGR.png" alt="">
+                  <div class="txt1">Adidas Temper Run</div>
+                  <div class="txt2" id="galery-size">Размер:<span>41 42 43 43 44 44.5 45 46</span></div>
+                  <div class="txt2" id="galery-price">Цена:<span>2050 ₴</span></div>
+                  <div class="more-btn-cont">
+                    <a href="model/model.html"><button class="more-btn" type="submit" name="more_button" value="Больше">Больше</button></a>
+                  </div>
+                </div>
+
+                <div class="galery-element">
+                  <img src="images/models/nb530.png" alt="">
+                  <div class="txt1">Puma RS-X Bold</div>
+                  <div class="txt2" id="galery-size">Размер:<span>40.5 41 42 43 44 45 46</span></div>
+                  <div class="txt2" id="galery-price">Цена:<span>2399 ₴</span></div>
+                  <div class="more-btn-cont">
+                    <a href="model/model.html"><button class="more-btn" type="submit" name="more_button" value="Больше">Больше</button></a>
+                  </div>
+                </div>
+                <div class="galery-element">
+                  <img src="images/models/nbXRCT.png" alt="">
+                  <div class="txt1">New Balance XRCT</div>
+                  <div class="txt2" id="galery-size">Размер:<span>40.5 41 42 43 43.5 44 44.5</span></div>
+                  <div class="txt2" id="galery-price">Цена:<span>2150 ₴</span></div>
+                  <div class="more-btn-cont">
+                    <a href="model/model.html"><button class="more-btn" type="submit" name="more_button" value="Больше">Больше</button></a>
+                  </div>
+                </div>
+                <div class="galery-element">
+                  <img src="images/models/adidas4D.png" alt="">
+                  <div class="txt1">Adidas Alphaedge 4D</div>
+                  <div class="txt2" id="galery-size">Размер:<span>36 37 38 41 41.5 42 45</span></div>
+                  <div class="txt2" id="galery-price">Цена:<span>2050 ₴</span></div>
+                  <div class="more-btn-cont">
+                    <a href="model/model.html"><button class="more-btn" type="submit" name="more_button" value="Больше">Больше</button></a>
+                  </div>
+                </div>
+                <div class="galery-element">
+                  <img src="images/models/adidasTemperRunGR.png" alt="">
+                  <div class="txt1">Adidas Temper Run</div>
+                  <div class="txt2" id="galery-size">Размер:<span>41 42 43 43 44 44.5 45 46</span></div>
+                  <div class="txt2" id="galery-price">Цена:<span>2050 ₴</span></div>
+                  <div class="more-btn-cont">
+                    <a href="model/model.html"><button class="more-btn" type="submit" name="more_button" value="Больше">Больше</button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="testimonialsID"></div>
+        </div>
+
+        <div class="testimonials-cont">
+          <div class="container">
+            <div class="content">
+              <div class="main-text1">Отзывы</div>
+              <div class="main-text2">Работа на репутацию</div>
+              <div class="testimonial-img"><img src="images/testimonials.png" alt="" /></div>
+              <div id="testimonials">
+                <div class="testimonial-element">
+                  <img src="images/testimonial1.png" alt="">
+                  <div class="testimonial-name"><img src="images/coma.png" alt="">Артём Танашевский</div>
+                  <div class="txt1">Сервис был вежливый и быстрый </div>
+                  <div class="txt2">Пара идеально сидит на ноге! Отправили в тот же день, а вечером уже гулял в них)</div>
+                </div>
+                <div class="testimonial-element">
+                  <img src="images/testimonial1.png" alt="">
+                  <div class="testimonial-name"><img src="images/coma.png" alt="">Артём Танашевский</div>
+                  <div class="txt1">Сервис был вежливый и быстрый </div>
+                  <div class="txt2">Пара идеально сидит на ноге! Отправили в тот же день, а вечером уже гулял в них)</div>
+                </div>
+                <div class="testimonial-element">
+                  <img src="images/testimonial1.png" alt="">
+                  <div class="testimonial-name"><img src="images/coma.png" alt="">Артём Танашевский</div>
+                  <div class="txt1">Сервис был вежливый и быстрый </div>
+                  <div class="txt2">Пара идеально сидит на ноге! Отправили в тот же день, а вечером уже гулял в них)</div>
+                </div>
+                <div class="testimonial-element">
+                  <img src="images/testimonial1.png" alt="">
+                  <div class="testimonial-name"><img src="images/coma.png" alt="">Артём Танашевский</div>
+                  <div class="txt1">Сервис был вежливый и быстрый </div>
+                  <div class="txt2">Пара идеально сидит на ноге! Отправили в тот же день, а вечером уже гулял в них)</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="container" id="footer">
+          <div id="news-cont">
+            <div class="news-form-cont">
+              <div class="news-form">
+                <div class="txt1">Подпишись на наши Новости!</div>
+                <div class="txt2">Сообщим Вам о скидках и бонусах.<br />Мы хотим быть ближе к Вам.</div>
+                <div class="news-mail">
+                  <form name="mail_form" data-rout="subscribe" action="send/order_send.php" method="post">
+                    <input class="form-label" type="email" name="email" placeholder="Введите Ваш E-mail" required>
+                    <button class="apply-btn" type="submit" name="submit_form" value="Отправить">Отправить</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="social-cont">
+            <div class="social">
+              <a href="https://www.instagram.com/king.size_shoes/"><img src="images/inst.png" alt=""></a>
+              <a href="https://t.me/uncle_sanych"><img src="images/telega.png" alt=""></a>
+              <a href="viber://chat?number=+380977000838"><img src="images/viber.png" alt=""></a>
+            </div>
+            <div class="menu-foot">
+              <ul class="item-foot">
+                <li><a class="menu-item-foot" href="">Помощь:</a></li>
+                <li>
+                  <div class="menu-item-foot2"><a href="">Политика конфиденциальности</a></div>
+                </li>
+              </ul>
+              <ul class="item-foot">
+                <li><a class="menu-item-foot">Связаться с нами:</a></li>
+                <li>
+                  <div class="menu-item-foot2"><a href="mailto:king.size.shoesshop@gmail.com">king.size.shoesshop@gmail.com</a></div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!--
+        <div class="backtotop"><a><img src=" " alt=""></a></div>
+      -->
+      </div>
+      <div class="registration-cont">
+        <div class="content">
+        <div class="registration">
+          <div class="registration-left">
+            <div class="light9">
+              <div class="light-back"></div>
+            </div>
+            <div class="registration-arrow"><img src="images/arrowReg.png" alt=""></div>
+          </div>
+          <div class="registration-left">
+            <div class="registration-esc"><img src="images/esc.png" alt=""></div>
+            <a class="registration-name">Оформление заказа</a>
+            <form class="registration-form" name="subscribe_form" data-rout="subscribe" action="send/order_send.php" method="post">
+              <div class="registration-input-cont">
+                <div id="size">
+                  <p class="frm">Размер</p>
+                  <img src="images/size.png" alt="">
+                  <select name="size" required>
+                    <option value="36">36</option>
+                    <option value="37">37</option>
+                    <option value="38">38</option>
+                    <option value="39">39</option>
+                    <option value="40">40</option>
+                    <option value="41">41</option>
+                    <option value="42">42</option>
+                    <option selected value="43">43</option>
+                    <option value="44">44</option>
+                    <option value="45">45</option>
+                    <option value="46">46</option>
+                    <option value="47">47</option>
+                    <option value="48">48</option>
+                  </select>
+                </div>
+                <div id="payment">
+                  <p class="frm">Cпособ оплаты</p>
+                  <img src="images/grn.png" alt="">
+                  <select name="payment" required>
+                    <option value="150_prepay">Предоплата в размере 150 ₴ (на 150 ₴ меньше указываем наложенный платёж)</option>
+                    <option value="full_prepay">Полная предоплата (без оплаты отправки денег)</option>
+                  </select>
+                </div>
+                <div id="delivery">
+                  <p class="frm">Cпособ доставки</p>
+                  <img src="images/dostavka.png" alt="">
+                  <select name="delivery" required>
+                    <option value="n_p">Новая Почта</option>
+                    <option value="ukr_p">Укрпочта</option>
+                    <option value="justin">Justin</option>
+                  </select>
+                </div>
+                <div class="registration-input-field" id="phone-cont"> <p class="frm">Введите номер Вашего телефона</p><input class="registration-label" id="phone" type="text" name="phone" placeholder="+38 (0__) ___ __ __" required><img src="images/phoneNumber.png" alt=""></div>
+                <div class="registration-input-field"><input class="registration-label" type="text" name="fio" required placeholder="Введите Ваше ФИО"><img src="images/fio.png" alt=""></div>
+                <div class="registration-input-field"><input class="registration-label" type="text" name="adressTo" required placeholder="Введите адрес доставки"><img src="images/adress.png" alt=""></div>
+              </div>
+              <button class="registration-start" type="submit" name="buy_form" value="Купить">Купить</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <div class="registration-back"></div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
+  <!--[if (lt IE 9)]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/min/tiny-slider.helper.ie8.js"></script><![endif]-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+  <script src="java_script/main.js"></script>
+
+</body>
+
+</html>
